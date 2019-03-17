@@ -1,0 +1,110 @@
+/*******NAVSTYLING****************/
+/****************************************/
+nav{
+    padding: 0 20px;
+}
+
+nav a{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+/*************LOGIN*******************/
+#login{
+    margin-right: 10px;
+}
+
+#registerButton{
+    margin-top: 8px;
+}
+
+.deliverButton{
+    margin-top: 7px;
+}
+
+/*******HOME PAGE STYLING****************/
+/****************************************/
+
+.headerClass{
+    position: relative;
+}
+
+.headerWrap{
+    background-image: url('./img/freightPic2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    opacity: .9;
+}
+
+.header_button{
+    border-radius: 20px;
+    height: 60px;
+    width: 300px;
+    background-color: #5A5A5B;
+    font-weight: 525;
+    font-size: 1.1em;
+}
+
+.header_button a{
+    color: white;
+}
+
+.header_button:hover{
+    background-color: orange !important;
+}
+
+#headerButton1{
+    position: absolute;
+    top: 52%;
+    left: 22%;
+}
+
+#headerButton2{
+    position: absolute;
+    top: 52%;
+    right: 22%;
+}
+
+.headerText{
+    position: absolute;
+    left: 27%;
+    top: 23%;
+    font-weight: 600;
+    color: orange;
+    text-shadow: 4px 3px black;
+    font-size: 4.3em;
+}
+
+.footer{
+    height: 1vh;
+    background-color: black;
+}
+
+/***********CREATE SHIPMENT PAGE*****************/
+/************************************************/
+.hireFormContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+@media(max-width: 700px){
+    .hireFormContainer{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+.errorMessage{
+    color: red;
+    display: block;
+}
+
+/***********LISTINGS COMPONENT****************/
+/*********************************************/
+.orderWrapper{
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 10px;
+}
