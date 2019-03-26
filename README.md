@@ -2,4 +2,4 @@ This application is build using React for the frontend, and Google Firebase to h
 
 ![freightShipGif](https://user-images.githubusercontent.com/25482392/54491207-f25b3700-4892-11e9-9787-aa309213fb63.gif)
 
-https://secret-dawn-66005.herokuapp.com/dashboard
+https://secret-dawn-66005.herokuapp.com/
